@@ -14,13 +14,13 @@ class UserSeeder extends Seeder
     public function run(): void
     {
         User::factory()->create([
-            'name' => 'mahasiswa',
-            'email' => 'mahasiswa@unsur.ac.id',
-        ])->assignRole('mahasiswa')->givePermissionTo('view_book');
+            'name' => 'lisna',
+            'email' => 'lisna@unsur.com',
+        ])->assignRole('lisna')->givePermissionTo('view_book');
 
         User::factory()->create([
             'name' => 'pustakawan',
-            'email' => 'pustakawan@unsur.ac.id',
+            'email' => 'pustakawan@unsur.com',
         ])->assignRole('pustakawan')
         ->givePermissionTo(['edit_book','edit_user']);
     }

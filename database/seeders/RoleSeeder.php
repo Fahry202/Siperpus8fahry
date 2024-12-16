@@ -18,7 +18,7 @@ class RoleSeeder extends Seeder
         Permission::create(['name' => 'edit_book']);
         Permission::create(['name' => 'edit_user']);
 
-        Role::create(['name' => 'mahasiswa']);
+        Role::create(['name' => 'lisna']);
         Permission::create(['name' => 'view_book']);
     }
 }

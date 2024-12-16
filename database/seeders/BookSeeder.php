@@ -14,13 +14,33 @@ class BookSeeder extends Seeder
     public function run(): void
     {
         Book::create([
-            "title" => "Jarkom - Filosofi",
-            "author" => "GTA",
+            "title" => "Pemrograman Modern",
+            "author" => "John Doe",
             "year" => 2024,
-            "publisher" => "UNSUR Mengantuk",
-            "city" => "Cianjir",
-            "cover" => "public/cover.jpg",
+            "publisher" => "Tech Publisher",
+            "city" => "Bandung",
+            "cover" => "public/new_cover.jpg",
             "bookshelf_id" => 1
+        ]);
+
+        Book::create([
+            "title" => "Teknologi Masa Depan",
+            "author" => "Jane Smith",
+            "year" => 2023,
+            "publisher" => "Future Books",
+            "city" => "Jakarta",
+            "cover" => "public/future_cover.jpg",
+            "bookshelf_id" => 2
+        ]);
+
+        Book::create([
+            "title" => "Belajar AI",
+            "author" => "Alan Turing",
+            "year" => 2022,
+            "publisher" => "AI Press",
+            "city" => "Surabaya",
+            "cover" => "public/ai_cover.jpg",
+            "bookshelf_id" => 3
         ]);
     }
 }
