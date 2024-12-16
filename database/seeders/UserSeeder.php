@@ -14,9 +14,9 @@ class UserSeeder extends Seeder
     public function run(): void
     {
         User::factory()->create([
-            'name' => 'lisna',
-            'email' => 'lisna@unsur.com',
-        ])->assignRole('lisna')->givePermissionTo('view_book');
+            'name' => 'fahry',
+            'email' => 'fahry@unsur.com',
+        ])->assignRole('fahry')->givePermissionTo('view_book');
 
         User::factory()->create([
             'name' => 'pustakawan',

@@ -20,8 +20,9 @@ class BookshelfSeeder extends Seeder
             ['code' =>'BKS003', 'name'=> 'Sejarah'],
             ['code' =>'BKS004', 'name'=> 'Teknologi'],
             ['code' =>'BKS005', 'name'=> 'Biografi'],
-            ['code' =>'BKS006', 'name'=> 'Filosofi']
-         
+            ['code' =>'BKS006', 'name'=> 'Filosofi'],
+            ['code' =>'BKS006', 'name'=> 'Anime']
+
         ]);
 
         Bookshelf::create(['code' => 'BKS003','name' => 'History']);
